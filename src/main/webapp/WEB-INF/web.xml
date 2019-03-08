@@ -26,7 +26,7 @@
     <init-param>
       <!-- spring源码加载自定义配置文件的时候，默认调用contextConfigLocation名称，所以是固定的，不能更改-->
       <param-name>contextConfigLocation</param-name>
-      <param-value>classpath:springmvc-config.xml</param-value>
+      <param-value>classpath*:springmvc-config.xml</param-value>
     </init-param>
   </servlet>
   <!-- 配置总的调度器 结束 -->
