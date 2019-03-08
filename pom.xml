@@ -274,23 +274,4 @@
       </plugins>
     </pluginManagement>
   </build>
-  <build>
-    <resources>
-        <resource>
-            <directory>src/main/Java</directory>
-            <excludes>
-                <exclude>**/*.java</exclude>
-            </excludes>
-        </resource>
-        <resource>
-            <directory>src/main/resources</directory>
-            <includes>
-                <include>**/*.* </include>
-            </includes>
-        </resource>
-    </resources>
-
-
- </build>
-
 </project>
