@@ -16,7 +16,7 @@
   <!-- spring监听器 结束-->
   <servlet-mapping>
     <servlet-name>springmvc</servlet-name>
-    <url-pattern>*.do</url-pattern>
+    <url-pattern>/</url-pattern>
   </servlet-mapping>
   <!-- 配置总的调度器 开始 -->
   <servlet>
